@@ -1,5 +1,11 @@
 package algorithm;
 
+/**
+ * dfs 深度遍历.
+ * 数据结构使用孩子兄弟法
+ *
+ * @author hiro
+ */
 public class DFS {
 
   public static void dfs(Node startNode) {
@@ -22,7 +28,6 @@ public class DFS {
   }
 
   public static void main(String[] args) {
-    DFS dfs = new DFS();
     Node node7 = new Node(7, null, null);
     Node node6 = new Node(6, null, null);
     Node node5 = new Node(5, node7, node6);
